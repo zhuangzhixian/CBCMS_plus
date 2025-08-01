@@ -4,13 +4,13 @@
 
 Modern software systems must increasingly operate across multiple jurisdictions, where legal compliance has become a critical and complex requirement. The challenge lies in encoding diverse legal obligations into precise, actionable, and context-aware policies throughout the software development lifecycle.
 
-**CBCMS+ (Cross-Border Compliance Management System Plus)** addresses this challenge by providing a structured, scalable, and automated framework for cross-border compliance policy generation. It integrates key components—including the **Policy Definition Language (PDL)**, the **Enhanced PDL Mapping module (EpMap)**, and the **Compliance Policy Generator (ComGen)**—to support trustworthy and regulation-aware software engineering across global regulatory contexts.
+**CBCMS+ (Cross-Border Compliance Management System Plus)** addresses this challenge by providing a structured, scalable, and automated framework for cross-border compliance policy generation. It integrates key components—including the **Policy Definition Language (PDL)**, the **Enhanced PDL Mapping Pipeline (EpMap)**, and the **Compliance Policy Generator (ComGen)**—to support trustworthy and regulation-aware software engineering across global regulatory contexts.
 
 ### Key Features
 
-- **Policy Definition Language (PDL):** Provides a unified, machine-processable format to represent both regulatory constraints and user-defined data handling preferences.
+- **Policy Definition Language (PDL):** Provides a unified, machine-processable format to represent both regulatory constraints and user-defined data processing preferences.
 - **EpMap (Enhanced PDL Mapping):** Maps multilingual legal provisions into structured PDL fields using a structure-preserving mapping pipeline.
-- **ComGen (Compliance Policy Generator):** Generates contextualized, executable compliance policies from attributes, such as data categories, sensitivity levels, and jurisdictional scopes.
+- **ComGen (Compliance Policy Generator):** Generates contextualized, executable compliance policies from attributes like data categories, sensitivity levels, and jurisdictional scopes.
 - **High Scalability and Efficiency:** Achieves real-time policy generation under high-concurrency workloads, enabling practical integration into DevOps workflows.
 
 ## Open Source Commitment
@@ -20,7 +20,7 @@ To promote transparency, reproducibility, and community collaboration, we have p
 1. **[EpMap: Enhanced PDL Mapping Module](https://github.com/zhuangzhixian/EpMap_CBCMS_plus)**
     This repository contains:
    - Source code for EpMap, which performs fine-grained mapping from legal text to structured PDL representations.
-   - A detailed annotation manual specifying tagging rules and label semantics used during model training.
+   - A detailed annotation manual specifying annotating rules and label semantics used during model training.
 2. **[ComGen: Compliance Policy Generator](https://github.com/zhuangzhixian/ComGen_CBCMS_plus)**
     This repository contains:
    - Source code for ComGen, which generates valid PDL policy templates based on structured input attributes.
