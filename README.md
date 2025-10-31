@@ -17,7 +17,7 @@ Modern software systems must increasingly operate across multiple jurisdictions,
 
 To promote transparency, reproducibility, and community collaboration, we have publicly released the following core components of CBCMS+:
 
-1. **[EpMap: Enhanced PDL Mapping Module](https://github.com/zhuangzhixian/EpMap_CBCMS_plus)**
+1. **[EpMap: Enhanced PDL Mapping Pipeline](https://github.com/zhuangzhixian/EpMap_CBCMS_plus)**
     This repository contains:
    - Source code for EpMap, which performs fine-grained mapping from legal text to structured PDL representations.
    - A detailed annotation manual specifying annotating rules and label semantics used during model training.
