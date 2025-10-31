@@ -26,6 +26,9 @@ To promote transparency, reproducibility, and community collaboration, we have p
    - Source code for ComGen, which generates valid PDL policy templates based on structured input attributes.
    - A comprehensive annotation manual describing data schemas and PDL policy formats.
 
+> **Note:** Due to legal and licensing restrictions on the use of certain regulatory documents, the raw annotated datasets used for model training cannot be publicly released.  
+> However, all annotation manuals, schema templates, and sample data formats are provided to enable equivalent dataset reconstruction and independent replication of our experiments.
+
 ### Why We Open Sourced These Components
 
 EpMap and ComGen form the foundation of CBCMS+, enabling automated, regulation-aware policy generation in diverse environments. Open-sourcing these modules allows us to:
