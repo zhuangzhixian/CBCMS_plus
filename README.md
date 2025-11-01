@@ -9,7 +9,7 @@ Modern software systems must increasingly operate across multiple jurisdictions,
 ### Key Features
 
 - **Policy Definition Language (PDL):** Provides a unified, machine-processable format to represent both regulatory constraints and user-defined data processing preferences.
-- **EpMap (Enhanced PDL Mapping):** Maps multilingual legal provisions into structured PDL fields using a structure-preserving mapping pipeline.
+- **EpMap (Enhanced PDL Mapping Pipeline):** Maps multilingual legal provisions into structured PDL fields using a structure-preserving mapping pipeline.
 - **ComGen (Compliance Policy Generator):** Generates contextualized, executable compliance policies from attributes like data categories, sensitivity levels, and jurisdictional scopes.
 - **High Scalability and Efficiency:** Achieves real-time policy generation under high-concurrency workloads, enabling practical integration into DevOps workflows.
 
